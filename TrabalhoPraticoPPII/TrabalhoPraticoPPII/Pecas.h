@@ -38,7 +38,7 @@ Boolean EliminaPeca(PecaXadrez **peca);
 
 
 //Obtem o tipo da peca por uma chave de texto
-PecaTipo* BuscaTipoTexto(char tipo);
+PecaTipo BuscaTipoTexto(char tipo);
 //Devolver a chave de texto correspondente à peca
 char BuscaTipoPorTipo(PecaTipo tipo);
 

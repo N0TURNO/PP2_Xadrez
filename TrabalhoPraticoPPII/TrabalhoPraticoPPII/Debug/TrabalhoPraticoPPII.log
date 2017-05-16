@@ -1,2 +1,5 @@
-﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-C:\Users\André Rodrigues\Desktop\Trabalho PP2\PP2_Xadrez\TrabalhoPraticoPPII\Debug\TrabalhoPraticoPPII.exe : fatal error LNK1120: 1 unresolved externals
+﻿Jogador.obj : error LNK2019: unresolved external symbol _CriarLista referenced in function _CriaJogador
+Jogador.obj : error LNK2019: unresolved external symbol _EliminarLista referenced in function _EliminaJogador
+Jogador.obj : error LNK2019: unresolved external symbol _AdicionarPeca referenced in function _InicializaJogador
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Ferna\Desktop\EDJD\1º Ano\2ºSemestre\PPII\TrabPraticoPost\PP2_Xadrez\TrabalhoPraticoPPII\Debug\TrabalhoPraticoPPII.exe : fatal error LNK1120: 4 unresolved externals

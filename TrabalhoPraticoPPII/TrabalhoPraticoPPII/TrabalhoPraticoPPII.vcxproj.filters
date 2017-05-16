@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="PrintPecas.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Pecas.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ListaPecas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jogador.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -30,6 +30,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ListaPecas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jogador.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

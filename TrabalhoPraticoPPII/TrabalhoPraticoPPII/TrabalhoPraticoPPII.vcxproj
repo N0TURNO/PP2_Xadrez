@@ -142,11 +142,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Jogador.c" />
     <ClCompile Include="ListaPecas.c" />
     <ClCompile Include="Pecas.c" />
-    <ClCompile Include="PrintPecas.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Jogador.h" />
     <ClInclude Include="ListaPecas.h" />
     <ClInclude Include="Pecas.h" />
   </ItemGroup>

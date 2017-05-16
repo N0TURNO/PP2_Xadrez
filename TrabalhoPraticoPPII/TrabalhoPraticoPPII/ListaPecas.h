@@ -4,11 +4,13 @@
 #include"Pecas.h"
 
 //Estrutura da lista das peças 
-typedef struct ListaPecas ListaPecas;
+typedef struct listaPecas ListaPecas, *PtrListaPecas;
 
-struct ListaPecas {
+struct listaPecas {
+
 	PecaXadrez **pecas;
 	int tamanhoLista;
+
 };
 //Criação da lista das peças
 ListaPecas* CriarLista();

@@ -45,7 +45,7 @@ Boolean EliminaPeca(PecaXadrez **peca)
 	return False;
 }
 
-PecaTipo* BuscaTipoTexto(char tipo)
+PecaTipo BuscaTipoTexto(char tipo)
 {
 	switch (tipo)
 	{
