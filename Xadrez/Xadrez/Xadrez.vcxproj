@@ -19,33 +19,33 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Trabalho PP2\xadrez\ChessBoard.c" />
-    <ClCompile Include="..\..\Trabalho PP2\xadrez\ChessPiece.c" />
-    <ClCompile Include="..\..\Trabalho PP2\xadrez\Game.c" />
-    <ClCompile Include="..\..\Trabalho PP2\xadrez\GUIAllegro.c" />
-    <ClCompile Include="..\..\Trabalho PP2\xadrez\List.c" />
-    <ClCompile Include="..\..\Trabalho PP2\xadrez\main.c" />
-    <ClCompile Include="..\..\Trabalho PP2\xadrez\Menu.c" />
-    <ClCompile Include="..\..\Trabalho PP2\xadrez\Music.c" />
-    <ClCompile Include="..\..\Trabalho PP2\xadrez\Network.c" />
-    <ClCompile Include="..\..\Trabalho PP2\xadrez\Player.c" />
-    <ClCompile Include="..\..\Trabalho PP2\xadrez\PossibleMovesList.c" />
-    <ClCompile Include="..\..\Trabalho PP2\xadrez\Rules.c" />
-    <ClCompile Include="..\..\Trabalho PP2\xadrez\SaveFile.c" />
+    <ClInclude Include="ChessBoard.h" />
+    <ClInclude Include="ChessPiece.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GUIAllegro.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Music.h" />
+    <ClInclude Include="Network.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PossibleMovesList.h" />
+    <ClInclude Include="Rules.h" />
+    <ClInclude Include="SaveFile.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Trabalho PP2\xadrez\ChessBoard.h" />
-    <ClInclude Include="..\..\Trabalho PP2\xadrez\ChessPiece.h" />
-    <ClInclude Include="..\..\Trabalho PP2\xadrez\Game.h" />
-    <ClInclude Include="..\..\Trabalho PP2\xadrez\guiallegro.h" />
-    <ClInclude Include="..\..\Trabalho PP2\xadrez\List.h" />
-    <ClInclude Include="..\..\Trabalho PP2\xadrez\Menu.h" />
-    <ClInclude Include="..\..\Trabalho PP2\xadrez\Music.h" />
-    <ClInclude Include="..\..\Trabalho PP2\xadrez\Network.h" />
-    <ClInclude Include="..\..\Trabalho PP2\xadrez\Player.h" />
-    <ClInclude Include="..\..\Trabalho PP2\xadrez\PossibleMovesList.h" />
-    <ClInclude Include="..\..\Trabalho PP2\xadrez\Rules.h" />
-    <ClInclude Include="..\..\Trabalho PP2\xadrez\SaveFile.h" />
+    <ClCompile Include="ChessBoard.c" />
+    <ClCompile Include="ChessPiece.c" />
+    <ClCompile Include="Game.c" />
+    <ClCompile Include="GUIAllegro.c" />
+    <ClCompile Include="List.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="Menu.c" />
+    <ClCompile Include="Music.c" />
+    <ClCompile Include="Network.c" />
+    <ClCompile Include="Player.c" />
+    <ClCompile Include="PossibleMovesList.c" />
+    <ClCompile Include="Rules.c" />
+    <ClCompile Include="SaveFile.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D055A08C-2F24-41F8-88D0-689270964A0B}</ProjectGuid>
