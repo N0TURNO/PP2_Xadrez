@@ -4,7 +4,7 @@
 #include"Pecas.h"
 
 //Estrutura da lista das peças 
-typedef struct listaPecas ListaPecas, *PtrListaPecas;
+typedef struct listaPecas ListaPecas;
 
 struct listaPecas {
 
@@ -29,12 +29,12 @@ PecaXadrez* BuscarRei(ListaPecas* lista);
 //Busca peça através da sua posição no array
 PecaXadrez* BuscarPecaIndex(ListaPecas* lista, int index);
 //Busca peça através da sua posição no tabuleiro
-PecaXadrez* BuscarPecaPosicao(ListaPecas *l, int x, int y);
+PecaXadrez* BuscarPecaPosicao(ListaPecas *lista, int x, int y);
 
 //Busca tamanho da lista
-int BuscaTamanhoLista(ListaPecas *l);
+int BuscaTamanhoLista(ListaPecas *lista);
 //Adiciona uma peça à lista dando um index
-void AdicionaPecaIndex(ListaPecas* lista, int index, PecaXadrez *peca);
+Boolean AdicionaPecaIndex(ListaPecas* lista, int index, PecaXadrez *peca);
 
 #endif // !LISTAPECAS
 

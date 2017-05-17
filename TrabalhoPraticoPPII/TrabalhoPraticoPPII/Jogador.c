@@ -1,3 +1,4 @@
+
 #include"ListaPecas.h"
 #include"Jogador.h"
 
@@ -34,7 +35,6 @@ void InicializaJogador(Jogador *jogador)
 		if (jogador->corPeca == Branco)
 		{
 			AdicionarPeca(jogador->listaPecas, CriaPecaXadrez(i, 6, jogador->corPeca, Peao, Jogavel));
-
 		}
 		else
 		{
@@ -47,7 +47,6 @@ void InicializaJogador(Jogador *jogador)
 		{
 			AdicionarPeca(jogador->listaPecas, CriaPecaXadrez(0, 7, jogador->corPeca, Torre, Jogavel));
 			AdicionarPeca(jogador->listaPecas, CriaPecaXadrez(7, 7, jogador->corPeca, Torre, Jogavel));
-
 		}
 		else
 		{
@@ -61,7 +60,6 @@ void InicializaJogador(Jogador *jogador)
 		{
 			AdicionarPeca(jogador->listaPecas, CriaPecaXadrez(1, 7, jogador->corPeca, Cavalo, Jogavel));
 			AdicionarPeca(jogador->listaPecas, CriaPecaXadrez(6, 7, jogador->corPeca, Cavalo, Jogavel));
-
 		}
 		else
 		{
@@ -75,7 +73,6 @@ void InicializaJogador(Jogador *jogador)
 		{
 			AdicionarPeca(jogador->listaPecas, CriaPecaXadrez(2, 7, jogador->corPeca, Bispo, Jogavel));
 			AdicionarPeca(jogador->listaPecas, CriaPecaXadrez(5, 7, jogador->corPeca, Bispo, Jogavel));
-
 		}
 		else
 		{
@@ -88,7 +85,6 @@ void InicializaJogador(Jogador *jogador)
 		if (jogador->corPeca == Branco)
 		{
 			AdicionarPeca(jogador->listaPecas, CriaPecaXadrez(3, 7, jogador->corPeca, Rainha, Jogavel));
-
 		}
 		else
 		{
@@ -100,7 +96,6 @@ void InicializaJogador(Jogador *jogador)
 		if (jogador->corPeca == Branco)
 		{
 			AdicionarPeca(jogador->listaPecas, CriaPecaXadrez(4, 7, jogador->corPeca, Rei, Jogavel));
-
 		}
 		else
 		{

@@ -1,5 +1,18 @@
-﻿Jogador.obj : error LNK2019: unresolved external symbol _CriarLista referenced in function _CriaJogador
-Jogador.obj : error LNK2019: unresolved external symbol _EliminarLista referenced in function _EliminaJogador
-Jogador.obj : error LNK2019: unresolved external symbol _AdicionarPeca referenced in function _InicializaJogador
+﻿  ListaPecas.c
+c:\users\andré rodrigues\desktop\trabalho pp2\pp2_xadrez\trabalhopraticoppii\trabalhopraticoppii\listapecas.c(78): warning C4047: '==': 'PecaXadrez *' differs in levels of indirection from 'int'
+c:\users\andré rodrigues\desktop\trabalho pp2\pp2_xadrez\trabalhopraticoppii\trabalhopraticoppii\listapecas.c(78): warning C4047: 'function': 'PecaXadrez *' differs in levels of indirection from 'int'
+c:\users\andré rodrigues\desktop\trabalho pp2\pp2_xadrez\trabalhopraticoppii\trabalhopraticoppii\listapecas.c(78): warning C4024: 'BuscaPosicaoPeca_Y': different types for formal and actual parameter 1
+c:\users\andré rodrigues\desktop\trabalho pp2\pp2_xadrez\trabalhopraticoppii\trabalhopraticoppii\listapecas.c(120): warning C4013: 'ChessPiece_GetX' undefined; assuming extern returning int
+c:\users\andré rodrigues\desktop\trabalho pp2\pp2_xadrez\trabalhopraticoppii\trabalhopraticoppii\listapecas.c(120): warning C4013: 'ChessPiece_GetY' undefined; assuming extern returning int
+  Jogador.c
+c:\users\andré rodrigues\desktop\trabalho pp2\pp2_xadrez\trabalhopraticoppii\trabalhopraticoppii\jogador.c(20): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\andré rodrigues\desktop\trabalho pp2\pp2_xadrez\trabalhopraticoppii\trabalhopraticoppii\jogador.c(136): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  Generating Code...
+c:\users\andré rodrigues\desktop\trabalho pp2\pp2_xadrez\trabalhopraticoppii\trabalhopraticoppii\listapecas.c(66): warning C4715: 'AdicionarPeca': not all control paths return a value
+c:\users\andré rodrigues\desktop\trabalho pp2\pp2_xadrez\trabalhopraticoppii\trabalhopraticoppii\listapecas.c(86): warning C4715: 'RemoverPeca': not all control paths return a value
+ListaPecas.obj : error LNK2019: unresolved external symbol _ChessPiece_GetX referenced in function _BuscarPecaPosicao
+ListaPecas.obj : error LNK2019: unresolved external symbol _ChessPiece_GetY referenced in function _BuscarPecaPosicao
 MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-C:\Users\Ferna\Desktop\EDJD\1º Ano\2ºSemestre\PPII\TrabPraticoPost\PP2_Xadrez\TrabalhoPraticoPPII\Debug\TrabalhoPraticoPPII.exe : fatal error LNK1120: 4 unresolved externals
+C:\Users\André Rodrigues\Desktop\Trabalho PP2\PP2_Xadrez\TrabalhoPraticoPPII\Debug\TrabalhoPraticoPPII.exe : fatal error LNK1120: 3 unresolved externals

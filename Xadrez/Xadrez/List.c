@@ -99,6 +99,7 @@ ChessPiece* List_GetKing(List* list){
 ChessPiece* List_GetPieceAt(List* list, int index){
     return list->pieces[index];
 }
+
 void List_SetPieceAt(List* list, int index, ChessPiece *piece){
     if (list == NULL) return;
 
