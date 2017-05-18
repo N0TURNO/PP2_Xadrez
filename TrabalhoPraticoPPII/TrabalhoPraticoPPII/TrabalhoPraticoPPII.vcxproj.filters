@@ -24,6 +24,12 @@
     <ClCompile Include="Jogador.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TabuleiroXadrez.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jogo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pecas.h">
@@ -33,6 +39,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Jogador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TabuleiroXadrez.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jogo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
